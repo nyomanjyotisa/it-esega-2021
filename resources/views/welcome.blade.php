@@ -947,7 +947,8 @@
                 </div>
 
                 <div class="form">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="/message" method="post" enctype="multipart/form-data">
+                        @csrf
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
