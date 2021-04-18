@@ -924,7 +924,7 @@
                         <div class="contact-address">
                             <i class="ion-ios-location-outline"></i>
                             <h3>Address</h3>
-                            <address>A108 Adam Street, NY 535022, USA</address>
+                            <address>Himpunan Teknologi Informasi</address>
                         </div>
                     </div>
 
@@ -940,7 +940,7 @@
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
                             <h3>Email</h3>
-                            <p><a href="mailto:info@example.com">info@example.com</a></p>
+                            <p><a href="mailto:info@example.com">it-esega@gmail.com</a></p>
                         </div>
                     </div>
 
