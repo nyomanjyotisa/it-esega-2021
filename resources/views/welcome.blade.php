@@ -98,7 +98,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="comp">
                                 <div class="comp-img">
-                                    <img src="assets/img/Web_Asset/competition-ml.png" alt="comp 1" class="img-fluid">
+                                    <img src="assets/img/Web_Asset/mlbb_logo.png" alt="comp 1" class="img-fluid">
                                 </div>
                                 <h3><a href="#">Mobile Legend</a></h3>
                                 <p>The Most popular Mobile MOBA </p>
@@ -107,8 +107,8 @@
 
                         <div class="col-lg-4 col-md-6">
                             <div class="comp">
-                                <div class="comp-img">
-                                    <img src="assets/img/Web_Asset/competition-pubgm.png" alt="comp 2"
+                                <div class="comp-img" style="width: 50%;">
+                                    <img src="assets/img/Web_Asset/pubg_logo.png" alt="comp 2" 
                                         class="img-fluid">
                                 </div>
                                 <h3><a href="#">PUBGM</a></h3>
@@ -480,8 +480,10 @@
         <section id="speakers">
             <div class="container" data-aos="fade-up">
                 <div class="section-header">
-                    <h2>Champion of IT-ESEGA 2020 </h2>
-                    <p>Here are the Champion of the lastest event</p>
+                    <div class="section-header-img">
+                        <a class="scrollto"><img src="assets/img/Web_Asset/champion_text.png" style="width: 100%;"
+                            alt="" title=""></a>
+                    </div>
                 </div>
 
                 <div class="row">
@@ -584,8 +586,10 @@
 
             <div class="container" data-aos="fade-up">
                 <div class="section-header">
-                    <h2>Gallery</h2>
-                    <p>Our gallery from the lastest event</p>
+                    <div class="section-header-img">
+                        <a class="scrollto"><img src="assets/img/Web_Asset/gallery_text.png" style="width: 40%;"
+                            alt="" title=""></a>
+                    </div>
                 </div>
             </div>
 
@@ -615,7 +619,10 @@
 
             <div class="container" data-aos="fade-up">
                 <div class="section-header">
-                    <h2>Sponsors</h2>
+                <div class="section-header-img">
+                        <a class="scrollto"><img src="assets/img/Web_Asset/sponsor_text.png" style="width: 40%;"
+                            alt="" title=""></a>
+                    </div>
                 </div>
 
                 <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
@@ -680,7 +687,10 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>F.A.Q </h2>
+                <div class="section-header-img">
+                        <a class="scrollto"><img src="assets/img/Web_Asset/faq_text.png" style="width: 30%;"
+                            alt="" title=""></a>
+                    </div>
                 </div>
 
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -796,9 +806,11 @@
         <section id="buy-tickets" class="section-with-bg">
             <div class="container" data-aos="fade-up">
 
-                <div class="section-header">
-                    <h2>Registration</h2>
-                    <p>Let's join in the Participation</p>
+                <div class="section-header">\
+                    <div class="section-header-img">
+                        <a class="scrollto"><img src="assets/img/Web_Asset/registration_text.png" style="width: 45%;"
+                            alt="" title=""></a>
+                    </div>
                 </div>
 
                 <div class="row">
@@ -923,16 +935,16 @@
                     <div class="col-md-4">
                         <div class="contact-address">
                             <i class="ion-ios-location-outline"></i>
-                            <h3>Address</h3>
-                            <address>Himpunan Teknologi Informasi</address>
+                            <h3>Facebook</h3>
+                            <p><a href="https://www.facebook.com/ITESEGA/">it-esega</a></p>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="contact-phone">
                             <i class="ion-ios-telephone-outline"></i>
-                            <h3>Phone Number</h3>
-                            <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+                            <h3>Instagram</h3>
+                            <p><a href="https://www.instagram.com/it_esega/">it-esega</a></p>
                         </div>
                     </div>
 
@@ -940,7 +952,7 @@
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
                             <h3>Email</h3>
-                            <p><a href="mailto:info@example.com">it-esega@gmail.com</a></p>
+                            <p><a href="mailto:it-esega@gmail.com">it-esega@gmail.com</a></p>
                         </div>
                     </div>
 
