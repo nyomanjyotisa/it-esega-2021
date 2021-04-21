@@ -44,4 +44,10 @@ Route::prefix('daftar')->group(function(){
         });
         Route::post('/submit', 'DaftarController@pubgm');
     });
+    Route::prefix('valorant')->group(function(){
+        Route::get('/', function () {
+            return view('valorant');
+        });
+        Route::post('/submit', 'DaftarController@valorant');
+    });
 });

@@ -15,6 +15,17 @@ class CreateValorantPlayersTable extends Migration
     {
         Schema::create('valorant_players', function (Blueprint $table) {
             $table->id();
+            
+            $table->bigInteger('team_id')->unsigned();
+            $table->foreign('team_id')->references('id')->on('valorants')->onDelete('cascade');
+
+            $table->string('name');
+            $table->string('nick');
+            $table->string('tagline');
+            $table->string('alamat');
+            $table->string('no_hp');
+            $table->string('id_line')->nullable();
+            $table->enum('role', ['ketua', 'member', 'cadangan']);
             $table->timestamps();
         });
     }

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use App\Pubgm;
 use App\PubgmPlayer;
+use App\Valorant;
+use App\ValorantPlayer;
 use App\MobileLegend;
 use App\MobileLegendPlayer;
 
@@ -17,13 +19,13 @@ class DaftarController extends Controller
         
         $proof = $request->file('buktiBayar');
         $path = 'bukti-bayar';
-        $nama_file = time()."_".$request->namaTeam;
+        $nama_file = time()."_".$request->namaTeam."_".$proof->getClientOriginalName();
         $proof->move($path,$nama_file);
         $team->proof_of_payment = $nama_file;
 
         $ktp = $request->file('ktp');
         $path = 'KTP';
-        $nama_file = time()."_".$request->namaTeam;
+        $nama_file = time()."_".$request->namaTeam."_".$ktp->getClientOriginalName();
         $ktp->move($path,$nama_file);
         $team->ktp = $nama_file;
 
@@ -106,14 +108,14 @@ class DaftarController extends Controller
         $team->name = $request->namaTeam;
         
         $proof = $request->file('buktiBayar');
-        $path = 'bukti-bayar';
-        $nama_file = time()."_".$request->namaTeam;
+        $path = 'bukti-bayar/pubgm';
+        $nama_file = time()."_".$request->namaTeam."_".$proof->getClientOriginalName();
         $proof->move($path,$nama_file);
         $team->proof_of_payment = $nama_file;
 
         $ktp = $request->file('ktp');
-        $path = 'KTP';
-        $nama_file = time()."_".$request->namaTeam;
+        $path = 'KTP/pubgm';
+        $nama_file = time()."_".$request->namaTeam."_".$ktp->getClientOriginalName();
         $ktp->move($path,$nama_file);
         $team->ktp = $nama_file;
 
@@ -173,6 +175,96 @@ class DaftarController extends Controller
         $cadangan->id_pubgm = $request->id5;
         $cadangan->alamat = $request->alamat5;
         $cadangan->no_hp = $request->nohp5;
+        $cadangan->role = 'cadangan';
+        $cadangan->save();
+
+        return redirect ('/');
+    }
+
+    public function valorant(Request $request){
+        $team = new Valorant();
+
+        $team->name = $request->namaTeam;
+        
+        $proof = $request->file('buktiBayar');
+        $path = 'bukti-bayar';
+        $nama_file = time()."_".$request->namaTeam."_".$proof->getClientOriginalName();
+        $proof->move($path,$nama_file);
+        $team->proof_of_payment = $nama_file;
+
+        $ktp = $request->file('ktp');
+        $path = 'KTP';
+        $nama_file = time()."_".$request->namaTeam."_".$ktp->getClientOriginalName();
+        $ktp->move($path,$nama_file);
+        $team->ktp = $nama_file;
+
+        $team->status = 'not_paid';
+        $team->save();
+
+        // ketua
+        $ketua = new ValorantPlayer();
+        $ketua->team_id = $team->id;
+        $ketua->name = $request->namaKetua;
+        $ketua->nick = $request->nickKetua;
+        $ketua->tagline = $request->idKetua;
+        $ketua->alamat = $request->alamatKetua;
+        $ketua->no_hp = $request->nohpKetua;
+        $ketua->id_line = $request->lineKetua;
+        $ketua->role = 'ketua';
+        $ketua->save();
+
+        // member 2
+        $member2 = new ValorantPlayer;
+        $member2->team_id = $team->id;
+        $member2->name = $request->nama2;
+        $member2->nick = $request->nick2;
+        $member2->tagline = $request->id2;
+        $member2->alamat = $request->alamat2;
+        $member2->no_hp = $request->nohp2;
+        $member2->role = 'member';
+        $member2->save();
+
+        // member 3
+        $member3 = new ValorantPlayer;
+        $member3->team_id = $team->id;
+        $member3->name = $request->nama3;
+        $member3->nick = $request->nick3;
+        $member3->tagline = $request->id3;
+        $member3->alamat = $request->alamat3;
+        $member3->no_hp = $request->nohp3;
+        $member3->role = 'member';
+        $member3->save();
+
+        // member 4
+        $member4 = new ValorantPlayer;
+        $member4->team_id = $team->id;
+        $member4->name = $request->nama4;
+        $member4->nick = $request->nick4;
+        $member4->tagline = $request->id4;
+        $member4->alamat = $request->alamat4;
+        $member4->no_hp = $request->nohp4;
+        $member4->role = 'member';
+        $member4->save();
+
+        // member 5
+        $member5 = new ValorantPlayer;
+        $member5->team_id = $team->id;
+        $member5->name = $request->nama5;
+        $member5->nick = $request->nick5;
+        $member5->tagline = $request->id5;
+        $member5->alamat = $request->alamat5;
+        $member5->no_hp = $request->nohp5;
+        $member5->role = 'member';
+        $member5->save();
+
+        // cadangan
+        $cadangan = new ValorantPlayer;
+        $cadangan->team_id = $team->id;
+        $cadangan->name = $request->nama6;
+        $cadangan->nick = $request->nick6;
+        $cadangan->tagline = $request->id6;
+        $cadangan->alamat = $request->alamat6;
+        $cadangan->no_hp = $request->nohp6;
         $cadangan->role = 'cadangan';
         $cadangan->save();
 

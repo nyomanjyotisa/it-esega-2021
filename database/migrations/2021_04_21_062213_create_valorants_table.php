@@ -15,6 +15,10 @@ class CreateValorantsTable extends Migration
     {
         Schema::create('valorants', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('proof_of_payment');
+            $table->string('ktp');
+            $table->enum('status', ['paid', 'not_paid']);
             $table->timestamps();
         });
     }
