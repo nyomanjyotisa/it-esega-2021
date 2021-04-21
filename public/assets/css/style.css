@@ -766,7 +766,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #speakers {
   padding: 60px 0 30px 0;
+  background: url("../img/Web_Asset/backgroundpubg5.jpg") top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
 }
+
+#speakers:before {
+  content: "";
+  background: rgba(24, 1, 1, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 
 #speakers .speaker {
   position: relative;
@@ -1177,7 +1192,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #gallery {
   padding: 60px;
+  background: url(../img/Web_Asset/backgroundpubg4.jpg) center center no-repeat;
+  background-size: cover;
   overflow: hidden;
+  position: relative;
+
+}
+
+#gallery:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #gallery .owl-nav, #gallery .owl-dots {
@@ -1254,7 +1283,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #faq {
   padding: 60px 0;
+  background: url("../img/Web_Asset/backgroundvalorant2.jpg") top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
 }
+
+
+#faq:before {
+  content: "";
+  background: rgba(22, 2, 2, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 
 #faq #faq-list {
   padding: 0;
@@ -1274,6 +1319,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-weight: 600;
   padding-right: 20px;
+  color: #e0e5fa;
 }
 
 #faq #faq-list i {
@@ -1281,18 +1327,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   right: 0;
   top: 16px;
+  color: #e0e5fa;
 }
 
 #faq #faq-list p {
   margin-bottom: 20px;
+  color: #cad4f6;
 }
 
 @media (max-width: 768px) {
   #faq #faq-list a {
     font-size: 18px;
+    color: #e0e5fa;
   }
   #faq #faq-list i {
     top: 13px;
+   color: #e0e5fa;
   }
 }
 
@@ -1301,7 +1351,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #faq #faq-list a.collapsed i::before {

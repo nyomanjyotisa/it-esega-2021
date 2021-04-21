@@ -489,96 +489,114 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+                            <img src="assets/img/speakers/Juara 1_ML_2018 (Sultan Eos (jr) ).jpg" alt="Speaker 1" class="img-fluid">
                             <div class="details">
-                                <h3><a href="speaker-details.php">Brenden Legros</a></h3>
-                                <p>Quas alias incidunt</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
+                                <h3><a href="speaker-details.php">Sultan Eos JR</a></h3>
+                                <p>Champion of Mobile Legend IT-ESEGA 2018</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-                            <img src="assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+                            <img src="assets/img/speakers/Juara 1_ML_2019 (PANDAMAN).jpg" alt="Speaker 2" class="img-fluid">
                             <div class="details">
-                                <h3><a href="speaker-details.php">Hubert Hirthe</a></h3>
-                                <p>Consequuntur odio aut</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
+                                <h3><a href="speaker-details.php">PANDAMAN</a></h3>
+                                <p>Champion of Mobile Legend IT-ESEGA 2019</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                            <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+                            <img src="assets/img/speakers/Juara 1_ML_2020 (Gryfin).jpg" alt="Speaker 3" class="img-fluid">
                             <div class="details">
-                                <h3><a href="speaker-details.php">Cole Emmerich</a></h3>
-                                <p>Fugiat laborum et</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
+                                <h3><a href="speaker-details.php">Gryfin</a></h3>
+                                <p>Champion of Mobile Legend IT-ESEGA 2020</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
+                            <img src="assets/img/speakers/Juara 1_PUBG_2019 (ROC Esport).jpg" alt="Speaker 4" class="img-fluid">
                             <div class="details">
-                                <h3><a href="speaker-details.php">Jack Christiansen</a></h3>
-                                <p>Debitis iure vero</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
+                                <h3><a href="speaker-details.php">ROC Esportn</a></h3>
+                                <p>Champion of PUBGM IT-ESEGA 2019</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-                            <img src="assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
+                            <img src="assets/img/speakers/Juara 2_ML_2018 (Otak Konslet).jpg" alt="Speaker 5" class="img-fluid">
                             <div class="details">
-                                <h3><a href="speaker-details.php">Alejandrin Littel</a></h3>
-                                <p>Qui molestiae natus</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
+                                <h3><a href="speaker-details.php">Otak Konslet</a></h3>
+                                <p>Second Place of Mobile Legend IT-ESEGA 2018</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                            <img src="assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+                            <img src="assets/img/speakers/Juara 2_ML_2019 (Shiva E-Sport).jpg" alt="Speaker 6" class="img-fluid">
                             <div class="details">
-                                <h3><a href="speaker-details.php">Willow Trantow</a></h3>
-                                <p>Non autem dicta</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
+                                <h3><a href="speaker-details.php">Shiva E-Sport</a></h3>
+                                <p>Second Place of Mobile Legend IT-ESEGA 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/img/speakers/Juara 2_ML_2020 (Synch Famo).jpg" alt="Speaker 6" class="img-fluid">
+                            <div class="details">
+                                <h3><a href="speaker-details.php">Synch Famo</a></h3>
+                                <p>Second Place of Mobile Legend IT-ESEGA 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/img/speakers/Juara 2_PUBG_2019 (8Dominic Prdigy).jpg" alt="Speaker 6" class="img-fluid">
+                            <div class="details">
+                                <h3><a href="speaker-details.php">8Dominic Prdigy</a></h3>
+                                <p>Second Place of PUBGM IT-ESEGA 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/img/speakers/Juara 3_ML_2018 (Burung Penunggang Gagak).jpg" alt="Speaker 6" class="img-fluid">
+                            <div class="details">
+                                <h3><a href="speaker-details.php">Burung Penunggang Gagak</a></h3>
+                                <p>Third Place of Mobile Legend IT-ESEGA 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/img/speakers/Juara 3_ML_2019 (Gryfin).jpg" alt="Speaker 6" class="img-fluid">
+                            <div class="details">
+                                <h3><a href="speaker-details.php">Gryfin</a></h3>
+                                <p>Third Place of Mobile Legend IT-ESEGA 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/img/speakers/Juara 3_ML_2020 (Nerf Esports).jpg" alt="Speaker 6" class="img-fluid">
+                            <div class="details">
+                                <h3><a href="speaker-details.php">Nerf Esports</a></h3>
+                                <p>Third Place of Mobile Legend IT-ESEGA 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/img/speakers/Juara 3_PUBG_2019 (Easy Glory6).jpg" alt="Speaker 6" class="img-fluid">
+                            <div class="details">
+                                <h3><a href="speaker-details.php">Easy Glory6</a></h3>
+                                <p>Third Place of PUBGM IT-ESEGA 2019</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>P
+            </div>
         </section><!-- End Speakers Section -->
 
         <!-- ======= Gallery Section ======= -->
@@ -594,22 +612,22 @@
             </div>
 
             <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/1.jpg" alt=""></a>
-                <a href="assets/img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/2.jpg" alt=""></a>
-                <a href="assets/img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/3.jpg" alt=""></a>
-                <a href="assets/img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/4.jpg" alt=""></a>
-                <a href="assets/img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/5.jpg" alt=""></a>
-                <a href="assets/img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/6.jpg" alt=""></a>
-                <a href="assets/img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/7.jpg" alt=""></a>
-                <a href="assets/img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img
-                        src="assets/img/gallery/8.jpg" alt=""></a>
+                <a href="assets/img/gallery/ajang lomba.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/ajang lomba.jpg" alt=""></a>
+                <a href="assets/img/gallery/foto bersama panitia.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/foto bersama panitia.jpg" alt=""></a>
+                <a href="assets/img/gallery/registrasi panitia.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/registrasi panitia.jpg" alt=""></a>
+                <a href="assets/img/gallery/penyerahan hadiah.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/penyerahan hadiah.jpg" alt=""></a>
+                <a href="assets/img/gallery/IMG_9010.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/IMG_9010.jpg" alt=""></a>
+                <a href="assets/img/gallery/DSC08605.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/DSC08605.jpg" alt=""></a>
+                <a href="assets/img/gallery/DSC08611.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/DSC08611.jpg" alt=""></a>
+                <a href="assets/img/gallery/DSCF2475.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/DSCF2475.jpg" alt=""></a>
             </div>
 
         </section><!-- End Gallery Section -->
@@ -629,49 +647,7 @@
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="supporter-logo">
-                            <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="supporter-logo">
-                            <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="supporter-logo">
-                            <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="supporter-logo">
-                            <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="supporter-logo">
-                            <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="supporter-logo">
-                            <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="supporter-logo">
-                            <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="supporter-logo">
-                            <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
+                            <img src="assets/img/supporters/Logo TI.png" class="img-fluid" alt="">
                         </div>
                     </div>
 
@@ -938,8 +914,8 @@
                     <div class="col-md-4">
                         <div class="contact-address">
                             <i class="ion-ios-location-outline"></i>
-                            <h3>Facebook</h3>
-                            <p><a href="https://www.facebook.com/ITESEGA/">it-esega</a></p>
+                            <h3>Swidantara</h3>
+                            <p><a>085967251015</a></p>
                         </div>
                     </div>
 
@@ -954,8 +930,8 @@
                     <div class="col-md-4">
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
-                            <h3>Email</h3>
-                            <p><a href="mailto:it-esega@gmail.com">it-esega@gmail.com</a></p>
+                            <h3>Riyaldi</h3>
+                            <p><a>081337318957</a></p>
                         </div>
                     </div>
 
