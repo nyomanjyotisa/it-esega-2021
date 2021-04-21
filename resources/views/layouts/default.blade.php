@@ -12,12 +12,13 @@
   <link rel="stylesheet" href="{{ asset('template/vendors/ti-icons/css/themify-icons.css') }} ">
   <link rel="stylesheet" type="text/css" href="{{ asset('template/js/select.dataTables.min.css') }} ">
   <link rel="stylesheet" href="{{ asset('template/css/vertical-layout-light/style.css') }} ">
-  <link rel="shortcut icon" href="{{ asset('template/images/favicon.png') }} " />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.js" integrity="sha512-Fq/wHuMI7AraoOK+juE5oYILKvSPe6GC5ZWZnvpOO/ZPdtyA29n+a5kVLP4XaLyDy9D1IBPYzdFycO33Ijd0Pg==" crossorigin="anonymous"></script>  
 </head>
 <body>
     @yield('content')
 
-  <script src="{{ asset('template/vendors/js/vendor.bundle.base.js') }} "></script>
+  <!-- <script src="{{ asset('template/vendors/js/vendor.bundle.base.js') }} "></script>
   <script src="{{ asset('template/vendors/chart.js/Chart.min.js') }} "></script>
   <script src="{{ asset('template/vendors/datatables.net/jquery.dataTables.js') }} "></script>
   <script src="{{ asset('template/vendors/datatables.net-bs4/dataTables.bootstrap4.js') }} "></script>
@@ -28,7 +29,7 @@
   <script src="{{ asset('template/js/settings.js') }} "></script>
   <script src="{{ asset('template/js/todolist.js') }} "></script>
   <script src="{{ asset('template/js/dashboard.js') }} "></script>
-  <script src="{{ asset('template/js/Chart.roundedBarCharts.js') }} "></script>
+  <script src="{{ asset('template/js/Chart.roundedBarCharts.js') }} "></script> -->
 </body>
 </html>
 

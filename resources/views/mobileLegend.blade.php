@@ -164,12 +164,50 @@
                             <input type="file" class="form-control" id="ktp" name="ktp" required>
                         </div>
                       </div>
-                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                    <button class="btn btn-light">Cancel</button>
+                      <div class="form-navigation">
+                        <button type="button" class="previous btn btn-info float-left">Previous</button>
+                        <button type="button" class="next btn btn-info float-right">Next</button>
+                        <button type="submit" class="btn btn-primary mr-2 float-right">Submit</button>
+                      </div>
                   </form>
                 </div>
               </div>
             </div>
         </div>
     </div>
+    <script>
+        $(function(){
+            var $section = $('.form-section');
+
+            function navigateTo(index){
+                $section.removeClass('current').eq(index).addClass('current');
+                $('.form-navigation .previous').toggle(index>0);
+                var atTheEnd = index >= $section.length - 1;
+                $('.form-navigation .next').toggle(!atTheEnd);
+                $('.form-navigation [type=submit]').toggle(atTheEnd);
+            }
+
+            function curIndex(){
+                return $section.index($section.filter('.current'));
+            }
+
+            $('.form-navigation .previous').click(function(){
+                navigateTo(curIndex()-1);
+            });
+
+            $('.form-navigation .next').click(function(){
+                $('.forms-sample').parsley().whenValidate({
+                    group: 'block-' + curIndex()
+                }).done(function(){
+                    navigateTo(curIndex()+1);
+                });
+            });
+
+            $section.each(function(index, section){
+                $(section).find(':input').attr('data-parsley-group', 'block'+index);
+            });
+
+            navigateTo(0);
+        });
+    </script>
     @endsection

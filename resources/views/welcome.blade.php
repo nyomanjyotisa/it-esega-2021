@@ -817,8 +817,9 @@
                                 </ul>
                                 <hr>
                                 <div class="text-center">
-                                    <button type="button" class="btn" data-toggle="modal"
-                                        data-target="#buy-ticket-modal" data-ticket-type="standard-access">Registration</button>
+                                    <a href="/daftar/mobilelegend" class="btn">Registration</a>
+                                    <!-- <button type="button" class="btn" data-toggle="modal"
+                                        data-target="#buy-ticket-modal" data-ticket-type="standard-access">Registration</button> -->
                                 </div>
                             </div>
                         </div>
@@ -838,8 +839,9 @@
                                 </ul>
                                 <hr>
                                 <div class="text-center">
-                                    <button type="button" class="btn" data-toggle="modal"
-                                        data-target="#buy-ticket-modal" data-ticket-type="pro-access">Registration</button>
+                                    <a href="/daftar/pubgm" class="btn">Registration</a>
+                                    <!-- <button type="button" class="btn" data-toggle="modal"
+                                        data-target="#buy-ticket-modal" data-ticket-type="pro-access">Registration</button> -->
                                 </div>
                             </div>
                         </div>
@@ -860,8 +862,9 @@
                                 </ul>
                                 <hr>
                                 <div class="text-center">
-                                    <button type="button" class="btn" data-toggle="modal"
-                                        data-target="#regis-modal-valorant" data-ticket-type="premium-access">Registration</button>
+                                    <a href="/daftar/valorant" class="btn">Registration</a>
+                                    <!-- <button type="button" class="btn" data-toggle="modal"
+                                        data-target="#regis-modal-valorant" data-ticket-type="premium-access">Registration</button> -->
                                 </div>
 
                             </div>
