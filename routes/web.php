@@ -29,6 +29,21 @@ Route::prefix('admin')->group(function(){
     Route::get('/', function () {
         return redirect('login');
     });
+    Route::prefix('mobilelegend')->group(function(){
+        Route::get('/', 'MobileLegendController@index');
+        Route::get('/detail/{id}', 'MobileLegendController@detail');
+        Route::get('/setpaid/{id}', 'MobileLegendController@setpaid');
+    });
+    Route::prefix('pubgm')->group(function(){
+        Route::get('/', 'PubgmController@index');
+        Route::get('/detail/{id}', 'PubgmController@detail');
+        Route::get('/setpaid/{id}', 'PubgmController@setpaid');
+    });
+    Route::prefix('valorant')->group(function(){
+        Route::get('/', 'ValorantController@index');
+        Route::get('/detail/{id}', 'ValorantController@detail');
+        Route::get('/setpaid/{id}', 'ValorantController@setpaid');
+    });
 });
 
 Route::prefix('daftar')->group(function(){
