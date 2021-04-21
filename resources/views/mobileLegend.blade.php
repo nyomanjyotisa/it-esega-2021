@@ -171,7 +171,7 @@
                             <button x-show="step < 8" onclick="return validateForm()" type="button" class="next btn btn-info float-right">Next</button>
                             <button id="next" x-show="step < 8" @click="step++" type="button" class="next btn btn-info float-right" hidden>Next</button>
                         </div>
-                        <button @click="step = 'complete'" x-show="step === 8" type="submit" class="btn btn-primary mr-2 float-right">Submit</button>
+                        <button x-show="step === 8" type="submit" class="btn btn-primary mr-2 float-right">Submit</button>
                       </div>
                       </div>
                   </form>
