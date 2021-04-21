@@ -27,6 +27,7 @@ class CreateMobileLegendPlayersTable extends Migration
             $table->string('id_line')->nullable();
             $table->enum('role', ['ketua', 'member', 'cadangan']);
             $table->timestamps();
+            $table->datetime('deleted_at')->nullable();
         });
     }
 

@@ -20,6 +20,7 @@ class CreateValorantsTable extends Migration
             $table->string('ktp');
             $table->enum('status', ['paid', 'not_paid']);
             $table->timestamps();
+            $table->datetime('deleted_at')->nullable();
         });
     }
 

@@ -18,13 +18,13 @@ class DaftarController extends Controller
         $team->name = $request->namaTeam;
         
         $proof = $request->file('buktiBayar');
-        $path = 'bukti-bayar';
+        $path = 'bukti-bayar/mobilelegend';
         $nama_file = time()."_".$request->namaTeam."_".$proof->getClientOriginalName();
         $proof->move($path,$nama_file);
         $team->proof_of_payment = $nama_file;
 
         $ktp = $request->file('ktp');
-        $path = 'KTP';
+        $path = 'KTP/mobilelegend';
         $nama_file = time()."_".$request->namaTeam."_".$ktp->getClientOriginalName();
         $ktp->move($path,$nama_file);
         $team->ktp = $nama_file;
@@ -187,13 +187,13 @@ class DaftarController extends Controller
         $team->name = $request->namaTeam;
         
         $proof = $request->file('buktiBayar');
-        $path = 'bukti-bayar';
+        $path = 'bukti-bayar/valorant';
         $nama_file = time()."_".$request->namaTeam."_".$proof->getClientOriginalName();
         $proof->move($path,$nama_file);
         $team->proof_of_payment = $nama_file;
 
         $ktp = $request->file('ktp');
-        $path = 'KTP';
+        $path = 'KTP/valorant';
         $nama_file = time()."_".$request->namaTeam."_".$ktp->getClientOriginalName();
         $ktp->move($path,$nama_file);
         $team->ktp = $nama_file;
