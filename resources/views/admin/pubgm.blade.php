@@ -39,13 +39,13 @@
                         @endif
                         </td>
                         <td>
-                            <a href="">
+                            <a href="/admin/pubgm/detail/{{$team->id}}">
                                 <button type="button" class="btn btn-inverse-primary btn-rounded btn-icon">
                                     <i class="ti-eye"></i>
                                 </button>
                             </a>
-                            <a href="">
-                                <button type="button" class="btn btn-inverse-primary btn-rounded btn-icon" onclick="return confirm ('Hapus Transaksi dengan id ?')">
+                            <a href="/admin/pubgm/delete/{{$team->id}}">
+                                <button type="button" class="btn btn-inverse-primary btn-rounded btn-icon" onclick="return confirm ('Hapus Team {{$team->name}}?')">
                                     <i class="ti-trash"></i>
                                 </button>
                             </a>

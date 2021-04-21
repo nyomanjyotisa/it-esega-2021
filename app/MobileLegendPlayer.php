@@ -3,9 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class MobileLegendPlayer extends Model
 {
+    use SoftDeletes;
     protected $fillable = [
         'team_id',
         'name',

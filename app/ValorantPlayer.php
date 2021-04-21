@@ -3,9 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ValorantPlayer extends Model
 {
+    use SoftDeletes;
     protected $fillable = [
         'team_id',
         'name',
@@ -16,4 +18,8 @@ class ValorantPlayer extends Model
         'id_line',
         'role',
     ];
+
+    public function team(){
+        return $this->belongsTo('App\Valorant', 'team_id', 'id');
+    }
 }
