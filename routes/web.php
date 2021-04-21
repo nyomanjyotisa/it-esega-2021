@@ -38,4 +38,10 @@ Route::prefix('daftar')->group(function(){
         });
         Route::post('/submit', 'DaftarController@mobilelegend');
     });
+    Route::prefix('pubgm')->group(function(){
+        Route::get('/', function () {
+            return view('pubgm');
+        });
+        Route::post('/submit', 'DaftarController@pubgm');
+    });
 });
