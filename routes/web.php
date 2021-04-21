@@ -13,14 +13,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+Route::get('/user/logout', 'Auth\LoginController@userLogout')->name('user.logout');
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home', function () {
+    return redirect('admin/dashboard');
+});
 Route::prefix('admin')->group(function(){
     Route::get('/dashboard', function () {
+        
         return view('admin/dashboard');
     });
     Route::get('/', function () {
-        return redirect('admin/dashboard');
+        return redirect('login');
+    });
+});
+
+Route::prefix('daftar')->group(function(){
+    Route::prefix('mobilelegend')->group(function(){
+        Route::get('/', function () {
+            return view('mobileLegend');
+        });
+        Route::post('/submit', 'DaftarController@mobilelegend');
     });
 });

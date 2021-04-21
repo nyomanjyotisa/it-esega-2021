@@ -17,6 +17,19 @@
           <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
         </div>
       </li>
+        @guest
+        @else
+        <li class="nav-item submenu dropdown">
+            <a class="dropdown-item nav-link" href="{{ url('/user/logout') }}"
+                onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();">
+              {{ __('Logout') }}
+            </a>
+            <form id="logout-form"  action="{{ url('/user/logout') }}" method="GET" style="display: none;">
+              @csrf
+            </form>
+        </li>
+        @endguest
     </ul>
     <ul class="navbar-nav navbar-nav-right">
       <li class="nav-item dropdown">
