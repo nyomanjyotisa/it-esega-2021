@@ -159,308 +159,9 @@
             </ul>
 
             <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <p>COMINGSOON</p>
                 <!-- Schdule Day 1 -->
-                <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>10:00 AM </time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/erangel.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Erangel A</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>10:40 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/erangel.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Erangel B</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>11:20 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/miramar.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Miramar A</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>12:05 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/miramar.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Miramar B</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>12:50 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/sanhok.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Sanhok A</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>13:20 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/sanhok.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Sanhok B</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>13:50 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/vikendi.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Vikendi A</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>14:25 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/vikendi.jpg">
-                            </div>
-                            <h4>Saturday 3 July <span>Qualifier PUBGM</span></h4>
-                            <hr>
-                            <p>Vikendi B</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>10:00 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/erangel.jpg">
-                            </div>
-                            <h4>Sunday 4 July <span>Final PUBGM</span></h4>
-                            <hr>
-                            <p>Final Erangel</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>10:40 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/miramar.jpg">
-                            </div>
-                            <h4>Sunday 4 July <span>Final PUBGM</span></h4>
-                            <hr>
-                            <p>Final Miramar</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>11:20 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/sanhok.jpg">
-                            </div>
-                            <h4>Sunday 4 July <span>Final PUBGM</span></h4>
-                            <hr>
-                            <p>Final Sanhok</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>11:55 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                                <img src="assets/img/Web_Asset/vikendi.jpg">
-                            </div>
-                            <h4>Sunday 4 July <span>Final PUBGM</span></h4>
-                            <hr>
-                            <p>Final Vikendi</p>
-                        </div>
-                    </div>
-                </div>
-              <!-- End Schdule Day 1 -->
-
-              <!-- Schdule Day 2 -->
-                <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>10:00 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                            <img src="assets/img/Web_Asset/competiton.png" alt="Brenden Legros">
-                            </div>
-                            <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                            <hr>
-                            <p>Facere provident incidunt quos voluptas.</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>11:00 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                            <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-                            </div>
-                            <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                            <hr>
-                            <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>12:00 AM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                            <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-                            </div>
-                            <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                            <hr>
-                            <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>02:00 PM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                            <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-                            </div>
-                            <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                            <hr>
-                            <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>03:00 PM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                            <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-                            </div>
-                            <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                            <hr>
-                            <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-                        </div>
-                    </div>
-
-                    <div class="row schedule-item">
-                        <div class="col-md-2"><time>04:00 PM</time></div>
-                        <div class="col-md-10">
-                            <div class="speaker">
-                            <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-                            </div>
-                            <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                            <hr>
-                            <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-                        </div>
-                    </div>
-                </div>
               <!-- End Schdule Day 2 -->
-
-              <!-- Schdule Day 3 -->
-              <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><time>10:00 AM</time></div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                        <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-                        </div>
-                        <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                        <hr>
-                        <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><time>11:00 AM</time></div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                        <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-                        </div>
-                        <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                        <hr>
-                        <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><time>12:00 AM</time></div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                        <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
-                        </div>
-                        <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                        <hr>
-                        <p>Facere provident incidunt quos voluptas.</p>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><time>02:00 PM</time></div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                        <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-                        </div>
-                        <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                        <hr>
-                        <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                    </div>
-                </div>
-                <div class="row schedule-item">
-                    <div class="col-md-2"><time>03:00 PM</time></div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                        <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-                        </div>
-                        <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                        <hr>
-                        <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-2"><time>04:00 PM</time></div>
-                    <div class="col-md-10">
-                        <div class="speaker">
-                        <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-                        </div>
-                        <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                        <hr>
-                        <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-                    </div>
-                </div>
-
-              </div>
-              <!-- End Schdule Day 2 -->
-
             </div>
 
           </div>
@@ -674,84 +375,63 @@
                         <ul id="faq-list">
 
                             <li>
-                                <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at
-                                    lectus urna duis? <i class="fa fa-minus-circle"></i></a>
+                                <a data-toggle="collapse" class="collapsed" href="#faq1">Apa persyaratan pendaftaran IT-ESEGA 2021? <i class="fa fa-minus-circle"></i></a>
                                 <div id="faq1" class="collapse" data-parent="#faq-list">
                                     <p>
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
-                                        laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
-                                        rhoncus dolor purus non.
+                                    peserta wajib merupakan warga negara indonesia, bersedia mengikuti peraturan yang berlaku, 
+                                    dan tentunya siap untuk main! Pastikan kalian membayar pendaftaran secara penuh agar di aprove oleh pantitia.
                                     </p>
                                 </div>
                             </li>
 
                             <li>
-                                <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius
-                                    morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
+                                <a data-toggle="collapse" href="#faq2" class="collapsed">Untuk mendaftar IT-ESEGA 2021 apakah ada batasan umur? <i class="fa fa-minus-circle"></i></a>
                                 <div id="faq2" class="collapse" data-parent="#faq-list">
                                     <p>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                    </p>
+                                    Lomba ini terbuka untuk umum. Kalau kalian di atas 17 tahu, wajib menyertakan KTP, 
+                                    kalau di bawah 17 tahun, kalian cukup memberikan kartu pelajar saja!                                    </p>
                                 </div>
                             </li>
 
                             <li>
-                                <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur
-                                    adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                                <a data-toggle="collapse" href="#faq3" class="collapsed">Prosedur Pertandingan? <i class="fa fa-minus-circle"></i></a>
                                 <div id="faq3" class="collapse" data-parent="#faq-list">
                                     <p>
-                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-                                        Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
-                                        suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
-                                        convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                        Hanya Pemain terdaftar yang bisa mengikuti pertandingan.
+                                        Semua tim harus menjunjung tinggi Sportifitas dan Fairplay. 
+                                        Semua Anggota tim harus membaca dan siap mengikuti regulasi dan peraturan turnamen. 
+                                        Penggunaan program ilegal dalam bentuk apapun akan dikenakan hukuman ban permanen baik itu ID dan Device
                                     </p>
                                 </div>
                             </li>
 
                             <li>
-                                <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus.
-                                    Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                                <a data-toggle="collapse" href="#faq4" class="collapsed">Sistem pertandingan offline atau online? <i class="fa fa-minus-circle"></i></a>
                                 <div id="faq4" class="collapse" data-parent="#faq-list">
                                     <p>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                                        Semua pertandingan berlangsung online dan kalian bisa bermain di rumah atau di tongkrongan bersama teman kalian tpi ingat protokol kesehatan ya!.
                                     </p>
                                 </div>
                             </li>
 
                             <li>
-                                <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec
-                                    nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
+                                <a data-toggle="collapse" href="#faq5" class="collapsed">Jadwal pertandingan masing masing divisi? <i class="fa fa-minus-circle"></i></a>
                                 <div id="faq5" class="collapse" data-parent="#faq-list">
                                     <p>
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
-                                        suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan.
-                                        Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit
-                                        turpis cursus in
+                                        Jadwal semua pertandingan bisa di lihat di menu schedule diatas.
                                     </p>
                                 </div>
                             </li>
 
                             <li>
-                                <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus
-                                    ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i
+                                <a data-toggle="collapse" href="#faq6" class="collapsed">Kenapa harus IT-ESEGA? <i
                                         class="fa fa-minus-circle"></i></a>
                                 <div id="faq6" class="collapse" data-parent="#faq-list">
                                     <p>
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies
-                                        leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet.
-                                        Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu
-                                        scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla
-                                        phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                        Karena IT-ESEGA merupakan lomba e-sport terbesar di bali yang di selenggarakan oleh mahasiswa dan sudah terkenal di media lokal loh...
                                     </p>
                                 </div>
                             </li>
-
                         </ul>
                     </div>
                 </div>
@@ -801,7 +481,7 @@
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>1 Reserve Player</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Gaming From Home</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Double Elimination</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian nationality</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian</li>
                                 </ul>
                                 <hr>
                                 <div class="text-center">
@@ -823,7 +503,7 @@
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>1 Reserve Player</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Gaming From Home</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Group Stage</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian nationality</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian</li>
                                 </ul>
                                 <hr>
                                 <div class="text-center">
@@ -846,7 +526,7 @@
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>1 Reserve Player</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Gaming From Home</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Double Elimination</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian nationality</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian</li>
                                 </ul>
                                 <hr>
                                 <div class="text-center">
