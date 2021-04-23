@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Pubgm;
 use App\PubgmPlayer;
-use App\Exports\PubgmExport;
+use App\Exports\PubgmPlayerExport;
 use Maatwebsite\Excel\Facades\Excel;
 
 class PubgmController extends Controller
@@ -41,5 +41,10 @@ class PubgmController extends Controller
     public function export_excel()
 	{
 		return Excel::download(new PubgmExport, 'pubgm.xlsx');
+	}
+
+    public function player_export_excel()
+	{
+		return Excel::download(new PubgmPlayerExport, 'pubgm-player.xlsx');
 	}
 }

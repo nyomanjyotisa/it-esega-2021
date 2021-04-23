@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\MobileLegend;
 use App\MobileLegendPlayer;
 use App\Exports\MobileLegendExport;
+use App\Exports\MobileLegendPlayerExport;
 use Maatwebsite\Excel\Facades\Excel;
 
 class MobileLegendController extends Controller
@@ -43,7 +44,8 @@ class MobileLegendController extends Controller
 		return Excel::download(new MobileLegendExport, 'mobile-legend.xlsx');
 	}
 
-    public function player(){
-
-    }
+    public function player_export_excel()
+	{
+		return Excel::download(new MobileLegendPlayerExport, 'mobile-legend-player.xlsx');
+	}
 }

@@ -12,7 +12,8 @@
                     <p class="card-description">
                     Ini adalah daftar PUBGM team
                     </p>
-                    <a href="/admin/pubgm/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
+                    <a href="/admin/pubgm/export_excel" class="btn btn-success my-3" target="_blank">EXPORT TIM</a>
+                    <a href="/admin/pubgm/player_export_excel" class="btn btn-success my-3" target="_blank">EXPORT PLAYER</a>
                 </div>
             </div>
             <div class="table-responsive">

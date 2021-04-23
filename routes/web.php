@@ -35,9 +35,7 @@ Route::prefix('admin')->group(function(){
         Route::get('/delete/{id}', 'MobileLegendController@delete');
         Route::get('/setpaid/{id}', 'MobileLegendController@setpaid');
         Route::get('/export_excel', 'MobileLegendController@export_excel');
-        Route::get('/player', function () {
-            return view('admin/dashboard');
-        });
+        Route::get('/player_export_excel', 'MobileLegendController@player_export_excel');
     });
     Route::prefix('pubgm')->group(function(){
         Route::get('/', 'PubgmController@index');
@@ -45,6 +43,7 @@ Route::prefix('admin')->group(function(){
         Route::get('/delete/{id}', 'PubgmController@delete');
         Route::get('/setpaid/{id}', 'PubgmController@setpaid');
         Route::get('/export_excel', 'PubgmController@export_excel');
+        Route::get('/player_export_excel', 'PubgmController@player_export_excel');
     });
     Route::prefix('valorant')->group(function(){
         Route::get('/', 'ValorantController@index');
@@ -52,6 +51,7 @@ Route::prefix('admin')->group(function(){
         Route::get('/delete/{id}', 'ValorantController@delete');
         Route::get('/setpaid/{id}', 'ValorantController@setpaid');
         Route::get('/export_excel', 'ValorantController@export_excel');
+        Route::get('/player_export_excel', 'ValorantController@player_export_excel');
     });
 });
 

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Valorant;
 use App\ValorantPlayer;
 use App\Exports\ValorantExport;
+use App\Exports\ValorantPlayerExport;
 use Maatwebsite\Excel\Facades\Excel;
 
 class ValorantController extends Controller
@@ -41,5 +42,10 @@ class ValorantController extends Controller
     public function export_excel()
 	{
 		return Excel::download(new ValorantExport, 'valorant.xlsx');
+	}
+
+    public function player_export_excel()
+	{
+		return Excel::download(new ValorantPlayerExport, 'valorant-player.xlsx');
 	}
 }

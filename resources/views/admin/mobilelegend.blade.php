@@ -12,7 +12,8 @@
                     <p class="card-description">
                     Ini adalah daftar Mobile Legend team
                     </p>
-                    <a href="/admin/mobilelegend/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
+                    <a href="/admin/mobilelegend/export_excel" class="btn btn-success my-3" target="_blank">EXPORT TIM</a>
+                    <a href="/admin/mobilelegend/player_export_excel" class="btn btn-success my-3" target="_blank">EXPORT PLAYER</a>
                 </div>
             </div>
             <div class="table-responsive">
