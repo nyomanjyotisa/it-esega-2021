@@ -35,9 +35,9 @@
                         <td>{{$team->created_at}}</td>
                         <td>
                         @if($team->status=='not_approved')    
-                        <span class="badge badge-danger">Not Paid</span>
+                        <span class="badge badge-danger">Not Approved</span>
                         @elseif($team->status=='approved')
-                        <span class="badge badge-success">Paid</span>
+                        <span class="badge badge-success">Approved</span>
                         @endif
                         </td>
                         <td>

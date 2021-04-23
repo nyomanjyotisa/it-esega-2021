@@ -18,12 +18,12 @@
                 <img class="mh-100 rounded-lg" src="/bukti-bayar/{{$lomba}}/{{$team->proof_of_payment}}" alt="Card image cap"><br>
             </div>
             @if($team->status=='not_approved')
-                Status : <span class="badge badge-danger">Not Paid</span>
+                Status : <span class="badge badge-danger">Not Approved</span>
                 <div class="text-center col">
                     <a href="/admin/{{$lomba}}/setpaid/{{$team->id}}" class="trigger-btn btn btn-success">Set Paid</a>
                 </div>
             @else
-                Status : <span class="badge badge-success">Paid</span>
+                Status : <span class="badge badge-success">Approved</span>
             @endif
             <div class="table-responsive mt-5">
             <table class="table table-hover">
