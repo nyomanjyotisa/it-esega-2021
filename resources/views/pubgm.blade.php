@@ -2,14 +2,15 @@
 
     @section('content')
     <div class="">
-        <div class="content-wrapper d-flex justify-content-center">
-        <div class="col-md-6 grid-margin stretch-card">
+        <div style="min-height:100vh;" class="content-wrapper d-flex justify-content-center">
+        <div class="col-md-6 grid-margin">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Pendaftaran Lomba PUBGM</h4>
                   <p class="card-description">
                     Lengkapi Semua Kolom Ya
                   </p>
+                  <p id="valid" class="badge badge-danger"></p>
                   <form class="forms-sample" action="/daftar/pubgm/submit" method="post" enctype="multipart/form-data">
                     @csrf
                     <div x-data="app()" x-cloak>
@@ -19,7 +20,7 @@
                             <input type="text" class="form-control" id="namaTeam" name="namaTeam" placeholder="Nama Team" required>
                         </div>
                       </div>
-                      <div class="form-section  mt-5 pt-5" x-show.transition.in="step === 2">
+                      <div class="form-section" x-show.transition.in="step === 2">
                         <div class="form-group">
                             <label for="namaKetua">Nama Ketua Team</label>
                             <input type="text" class="form-control" id="namaKetua" name="namaKetua" placeholder="Nama Ketua Team" required>
@@ -45,7 +46,7 @@
                             <input type="text" class="form-control" id="lineKetua" name="lineKetua" placeholder="ID Line" required>
                         </div>
                       </div>
-                      <div class="form-section mt-5 pt-5" x-show.transition.in="step === 3">
+                      <div class="form-section" x-show.transition.in="step === 3">
                         <div class="form-group">
                             <label for="namaKetua">Nama Member Tim 2</label>
                             <input type="text" class="form-control" id="nama2" name="nama2" placeholder="Nama Member Tim 2" required>
@@ -67,7 +68,7 @@
                             <input type="text" class="form-control" id="nohp2" name="nohp2" placeholder="No HP/Wa" required>
                         </div>
                       </div>
-                      <div class="form-section mt-5 pt-5" x-show.transition.in="step === 4">
+                      <div class="form-section" x-show.transition.in="step === 4">
                         <div class="form-group">
                             <label for="namaKetua">Nama Member Tim 3</label>
                             <input type="text" class="form-control" id="nama3" name="nama3" placeholder="Nama Member Tim 3" required>
@@ -89,7 +90,7 @@
                             <input type="text" class="form-control" id="nohp3" name="nohp3" placeholder="No HP/Wa" required>
                         </div>
                       </div>
-                      <div class="form-section mt-5 pt-5" x-show.transition.in="step === 5">
+                      <div class="form-section" x-show.transition.in="step === 5">
                         <div class="form-group">
                             <label for="namaKetua">Nama Member Tim 4</label>
                             <input type="text" class="form-control" id="nama4" name="nama4" placeholder="Nama Member Tim 4" required>
@@ -111,7 +112,7 @@
                             <input type="text" class="form-control" id="nohp4" name="nohp4" placeholder="No HP/Wa" required>
                         </div>
                       </div>
-                      <div class="form-section mt-5 pt-5" x-show.transition.in="step === 6">
+                      <div class="form-section" x-show.transition.in="step === 6">
                         <div class="form-group">
                             <label for="namaKetua">Nama Member Tim Cadangan</label>
                             <input type="text" class="form-control" id="nama5" name="nama5" placeholder="Nama Member Tim 5" required>
@@ -133,7 +134,7 @@
                             <input type="text" class="form-control" id="nohp5" name="nohp5" placeholder="No HP/Wa" required>
                         </div>
                       </div>
-                      <div class="form-section mt-5 pt-5" x-show.transition.in="step === 7">
+                      <div class="form-section" x-show.transition.in="step === 7">
                         <div class="form-group">
                             <label for="buktiBayar">Bukti Pembayaran</label>
                             <input type="file" class="form-control" id="buktiBayar" name="buktiBayar" required>
@@ -146,10 +147,10 @@
                       <div class="form-navigation">
                         <div x-show="step != 'complete'">
                             <button onclick="clearValidate()" x-show="step > 1" @click="step--" type="button" class="previous btn btn-info float-left">Previous</button>
-                            <button x-show="step < 8" onclick="return validateForm()" type="button" class="next btn btn-info float-right">Next</button>
-                            <button id="next" x-show="step < 8" @click="step++" type="button" class="next btn btn-info float-right" hidden>Next</button>
+                            <button x-show="step < 7" onclick="return validateForm()" type="button" class="next btn btn-info float-right">Next</button>
+                            <button id="next" x-show="step < 7" @click="step++" type="button" class="next btn btn-info float-right" hidden>Next</button>
                         </div>
-                        <button onclick="showValidate()" x-show="step === 8" type="submit" class="btn btn-primary mr-2 float-right">Submit</button>
+                        <button onclick="showValidate()" x-show="step === 7" type="submit" class="btn btn-primary mr-2 float-right">Submit</button>
                       </div>
                     </div>
                   </form>
