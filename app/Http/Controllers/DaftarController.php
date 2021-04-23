@@ -29,7 +29,7 @@ class DaftarController extends Controller
         $ktp->move($path,$nama_file);
         $team->ktp = $nama_file;
 
-        $team->status = 'not_paid';
+        $team->status = 'not_approved';
         $team->save();
 
         // ketua
@@ -119,7 +119,7 @@ class DaftarController extends Controller
         $ktp->move($path,$nama_file);
         $team->ktp = $nama_file;
 
-        $team->status = 'not_paid';
+        $team->status = 'not_approved';
         $team->save();
 
         // ketua
@@ -198,7 +198,7 @@ class DaftarController extends Controller
         $ktp->move($path,$nama_file);
         $team->ktp = $nama_file;
 
-        $team->status = 'not_paid';
+        $team->status = 'not_approved';
         $team->save();
 
         // ketua

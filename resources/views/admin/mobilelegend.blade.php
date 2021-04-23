@@ -12,6 +12,7 @@
                     <p class="card-description">
                     Ini adalah daftar Mobile Legend team
                     </p>
+                    <a href="/admin/mobilelegend/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
                 </div>
             </div>
             <div class="table-responsive">
@@ -32,9 +33,9 @@
                         <td>{{$team->name}}</td>
                         <td>{{$team->created_at}}</td>
                         <td>
-                        @if($team->status=='not_paid')    
+                        @if($team->status=='not_approved')    
                         <span class="badge badge-danger">Not Paid</span>
-                        @elseif($team->status=='paid')
+                        @elseif($team->status=='approved')
                         <span class="badge badge-success">Paid</span>
                         @endif
                         </td>

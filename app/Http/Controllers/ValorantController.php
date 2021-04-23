@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Valorant;
 use App\ValorantPlayer;
+use App\Exports\ValorantExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class ValorantController extends Controller
 {
@@ -31,8 +33,13 @@ class ValorantController extends Controller
 
     public function setpaid($id){
         $team = Valorant::find($id);
-        $team->status = 'paid';
+        $team->status = 'approved';
         $team->save();
         return redirect()->back();
     }
+
+    public function export_excel()
+	{
+		return Excel::download(new ValorantExport, 'valorant.xlsx');
+	}
 }

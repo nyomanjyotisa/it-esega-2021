@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\MobileLegend;
 use App\MobileLegendPlayer;
+use App\Exports\MobileLegendExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class MobileLegendController extends Controller
 {
@@ -31,8 +33,17 @@ class MobileLegendController extends Controller
 
     public function setpaid($id){
         $team = MobileLegend::find($id);
-        $team->status = 'paid';
+        $team->status = 'approved';
         $team->save();
         return redirect()->back();
+    }
+
+    public function export_excel()
+	{
+		return Excel::download(new MobileLegendExport, 'mobile-legend.xlsx');
+	}
+
+    public function player(){
+
     }
 }

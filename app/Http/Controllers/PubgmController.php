@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Pubgm;
 use App\PubgmPlayer;
+use App\Exports\PubgmExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class PubgmController extends Controller
 {
@@ -31,8 +33,13 @@ class PubgmController extends Controller
 
     public function setpaid($id){
         $team = Pubgm::find($id);
-        $team->status = 'paid';
+        $team->status = 'approved';
         $team->save();
         return redirect()->back();
     }
+
+    public function export_excel()
+	{
+		return Excel::download(new PubgmExport, 'pubgm.xlsx');
+	}
 }

@@ -18,7 +18,7 @@ class CreatePubgmsTable extends Migration
             $table->string('name');
             $table->string('proof_of_payment');
             $table->string('ktp');
-            $table->enum('status', ['paid', 'not_paid']);
+            $table->enum('status', ['approved', 'not_approved']);
             $table->timestamps();
             $table->datetime('deleted_at')->nullable();
         });
