@@ -358,6 +358,47 @@
 
         </section><!-- End Sponsors Section -->
 
+        
+        <!-- =======  TOS Section ======= -->
+        <section id="tos">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                <div class="section-header-img">
+                        <a class="scrollto"><img src="assets/img/Web_Asset/termsofservice_text.png" style="width: 50%;"
+                            alt="" title=""></a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-9">
+                        <ul id="tos-list">
+
+                            <li>
+                                <a data-toggle="collapse" class="collapsed" href="#faq1">1. Wajib menghidupkan kamera(webcam) saat bertanding perteam/perindividu(pubg,ml), untuk valorant wajib perindividu dengan alasan untuk crosscheck pemain pada saat bermain dirumah masing” dan memperlihatkan pemain pada saat live streaming</a>
+                            </li>
+
+                            <li>
+                                <a data-toggle="collapse" href="#faq2" class="collapsed">2. Jika terjadi hal yang tidak diinginkan dan membuat kemungkinan lomba dapat dibatalkan maka kami selaku panitia berhak membatalkan pertandingan dengan uang pendaftaran akan dikembalikan sepenuhnya</a>
+                            </li>
+                            <li>
+                                <a data-toggle="collapse" href="#faq4" class="collapsed">3. Panitia berhak mengganti/memberikan rules tambahan dalam pertandingan</a>
+                            </li>
+
+                            <li>
+                                <a data-toggle="collapse" href="#faq5" class="collapsed">4. Keputusan panitia tidak dapat diganggu gugat</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- End  F.A.Q Section -->
+
+
         <!-- =======  F.A.Q Section ======= -->
         <section id="faq">
 
