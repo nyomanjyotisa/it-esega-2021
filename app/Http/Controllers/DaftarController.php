@@ -99,7 +99,7 @@ class DaftarController extends Controller
         $cadangan->role = 'cadangan';
         $cadangan->save();
 
-        return redirect ('/');
+        return view ('/thanks');
     }
 
     public function pubgm(Request $request){
@@ -178,7 +178,7 @@ class DaftarController extends Controller
         $cadangan->role = 'cadangan';
         $cadangan->save();
 
-        return redirect ('/');
+        return view ('/thanks');
     }
 
     public function valorant(Request $request){
@@ -268,6 +268,6 @@ class DaftarController extends Controller
         $cadangan->role = 'cadangan';
         $cadangan->save();
 
-        return redirect ('/');
+        return view ('/thanks');
     }
 }

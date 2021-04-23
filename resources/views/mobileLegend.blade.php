@@ -2,14 +2,15 @@
 
     @section('content')
     <div class="">
-        <div class="content-wrapper d-flex justify-content-center">
-        <div class="col-md-6 grid-margin stretch-card">
+        <div style="min-height:100vh;" class="content-wrapper d-flex justify-content-center">
+        <div class="col-md-6 grid-margin">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Pendaftaran Lomba Mobile Legend</h4>
                   <p class="card-description">
                     Lengkapi Semua Kolom Ya
                   </p>
+                  <p id="valid" class="badge badge-danger"></p>
                   <form name="form" class="forms-sample" action="/daftar/mobilelegend/submit" method="post" enctype="multipart/form-data">
                     @csrf
                     <div x-data="app()" x-cloak>
@@ -167,11 +168,11 @@
                       </div>
                       <div class="form-navigation">
                         <div x-show="step != 'complete'">
-                            <button x-show="step > 1" @click="step--" type="button" class="previous btn btn-info float-left">Previous</button>
+                            <button onclick="clearValidate()" x-show="step > 1" @click="step--" type="button" class="previous btn btn-info float-left">Previous</button>
                             <button x-show="step < 8" onclick="return validateForm()" type="button" class="next btn btn-info float-right">Next</button>
                             <button id="next" x-show="step < 8" @click="step++" type="button" class="next btn btn-info float-right" hidden>Next</button>
                         </div>
-                        <button x-show="step === 8" type="submit" class="btn btn-primary mr-2 float-right">Submit</button>
+                        <button onclick="showValidate()" x-show="step === 8" type="submit" class="btn btn-primary mr-2 float-right">Submit</button>
                       </div>
                       </div>
                   </form>
@@ -185,12 +186,20 @@
             var x = $("#namaTeam").val();
             
             if (x == "") {
-                // alert("Isi Kolom");
+                alert("Lengkapi Kolom");
                 
                 return false;
             }else {
                 document.getElementById("next").click();
             }
+        }
+        
+        function showValidate() {
+            document.getElementById("valid").innerHTML = "Kolom belum terisi seluruhnya! \nLengkapi kolom dari awal sampai akhir!";
+        }
+
+        function clearValidate() {
+            document.getElementById("valid").innerHTML = "";
         }
     </script>
     <script>
