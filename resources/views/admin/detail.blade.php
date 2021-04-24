@@ -55,7 +55,8 @@
             </div>
             
             <div class="mt-5">
-                <embed src="/KTP/{{$lomba}}/{{$team->ktp}}" width="800px" height="2100px" />
+                <!-- <embed src="/KTP/{{$lomba}}/{{$team->ktp}}" width="800px" height="2100px" /> -->
+                <iframe src="/KTP/{{$lomba}}/{{$team->ktp}}" style="width: 100%;height: 2000px;border: none;"></iframe>
             </div>
         </div>
         </div>
