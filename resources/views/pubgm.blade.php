@@ -136,11 +136,11 @@
                       </div>
                       <div class="form-section" x-show.transition.in="step === 7">
                         <div class="form-group">
-                            <label for="buktiBayar">Bukti Pembayaran</label>
+                            <label for="buktiBayar">Bukti Pembayaran(berupa gambar)</label>
                             <input type="file" class="form-control" id="buktiBayar" name="buktiBayar" required>
                         </div>
                         <div class="form-group">
-                            <label for="buktiBayar">KTP Semua Anggota</label>
+                            <label for="buktiBayar">KTP Semua Anggota(berupa pdf, jadi 1 PDF)</label>
                             <input type="file" class="form-control" id="ktp" name="ktp" required>
                         </div>
                       </div>
