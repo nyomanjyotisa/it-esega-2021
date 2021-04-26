@@ -29,6 +29,9 @@ class MobileLegendController extends Controller
         $team = MobileLegend::find($id);
         $team->delete();
 
+        $players = MobileLegendPlayer::where('team_id', $id);
+        $players->delete();
+
         return redirect('/admin/mobilelegend');
     }
 

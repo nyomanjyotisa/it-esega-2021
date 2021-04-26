@@ -10,7 +10,7 @@
                 <div class="col">
                     <h4 class="card-title">Detail Team</h4>
                     <p class="card-description">
-                    Ini adalah Detail Mobile Legend team
+                    Ini adalah Halaman Detail Team
                     </p>
                 </div>
             </div>
@@ -31,7 +31,13 @@
                 <tr>
                     <th>Nama</th>
                     <th>Nick</th>
-                    <th>ID Server</th>
+                    @if($lomba == 'mobilelegend')
+                        <th>ID Server</th>
+                    @elseif($lomba == 'pubgm')
+                        <th>ID Pubgm</th>
+                    @elseif($lomba == 'valorant')
+                        <th>Tagline</th>
+                    @endif
                     <th>Alamat</th>
                     <th>No Hp</th>
                     <th>Id Line</th>
@@ -43,7 +49,13 @@
                     <tr>
                         <td>{{$player->name}}</td>
                         <td>{{$player->nick}}</td>
-                        <td>{{$player->id_server}}</td>
+                        @if($lomba == 'mobilelegend')
+                            <td>{{$player->id_server}}</td>
+                        @elseif($lomba == 'pubgm')
+                            <td>{{$player->id_pubgm}}</td>
+                        @elseif($lomba == 'valorant')
+                            <td>{{$player->tagline}}</td>
+                        @endif
                         <td>{{$player->alamat}}</td>
                         <td>{{$player->no_hp}}</td>
                         <td>{{$player->id_line}}</td>

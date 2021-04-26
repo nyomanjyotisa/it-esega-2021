@@ -68,9 +68,10 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="about-right" data-aos="fade-left" data-aos-delay="100">
-                            <video class="video-teaser" style="width: 100%;" controls>
-                                <source  src="assets/video/Teaser IT-ESEGA 2021.mp4" type="video/mp4" />
-                            </video>
+                            <!-- <iframe class="video-teaser" style="width: 100%;" controls>
+                                <source src="https://www.youtube.com/embed/DHK27NAaJPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscree>
+                            </iframe> -->
+                            <iframe style="width: 100%; height: 300px;" src="https://www.youtube.com/embed/DHK27NAaJPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscree></iframe>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -313,7 +314,7 @@
             </div>
 
             <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/gallery/ajang lomba.jpg" class="venobox" data-gall="gallery-carousel"><img
+                <a href="assets/img/gallery/ajang lomba.jpg" class="venobox w-100" data-gall="gallery-carousel"><img
                         src="assets/img/gallery/ajang lomba.jpg" alt=""></a>
                 <a href="assets/img/gallery/foto bersama panitia.jpg" class="venobox" data-gall="gallery-carousel"><img
                         src="assets/img/gallery/foto bersama panitia.jpg" alt=""></a>

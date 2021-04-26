@@ -29,6 +29,9 @@ class ValorantController extends Controller
         $team = Valorant::find($id);
         $team->delete();
 
+        $players = ValorantPlayer::where('team_id', $id);
+        $players->delete();
+
         return redirect('/admin/valorant');
     }
 

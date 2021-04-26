@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Pubgm;
 use App\PubgmPlayer;
+use App\Exports\PubgmExport;
 use App\Exports\PubgmPlayerExport;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -27,6 +28,9 @@ class PubgmController extends Controller
     {
         $team = Pubgm::find($id);
         $team->delete();
+
+        $players = PubgmPlayer::where('team_id', $id);
+        $players->delete();
 
         return redirect('/admin/pubgm');
     }
