@@ -314,7 +314,7 @@
             </div>
 
             <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/gallery/ajang lomba.jpg" class="venobox w-100" data-gall="gallery-carousel"><img
+                <a href="assets/img/gallery/ajang lomba.jpg" class="venobox" data-gall="gallery-carousel"><img
                         src="assets/img/gallery/ajang lomba.jpg" alt=""></a>
                 <a href="assets/img/gallery/foto bersama panitia.jpg" class="venobox" data-gall="gallery-carousel"><img
                         src="assets/img/gallery/foto bersama panitia.jpg" alt=""></a>
