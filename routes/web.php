@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Pubgm;
+use App\Valorant;
+use App\MobileLegend;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +19,15 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::get('/user/logout', 'Auth\LoginController@userLogout')->name('user.logout');
 Route::get('/', function () {
-    return view('welcome');
+    $mobilelegend = MobileLegend::where('status', 'approved')->count();
+    $pubgm = Pubgm::where('status', 'approved')->count();
+    $valorant = Valorant::where('status', 'approved')->count();
+
+    $mobilelegend = 48 - $mobilelegend;
+    $pubgm = 50 - $pubgm;
+    $valorant = 32 - $valorant;
+    
+    return view('welcome', ['mobilelegend' => $mobilelegend, 'pubgm' => $pubgm, 'valorant' => $valorant]);
 });
 Route::get('/home', function () {
     return redirect('admin/dashboard');

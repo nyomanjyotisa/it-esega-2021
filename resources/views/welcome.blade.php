@@ -524,10 +524,15 @@
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Gaming From Home</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Double Elimination</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>{{$mobilelegend}} Slot Left</li>
                                 </ul>
                                 <hr>
                                 <div class="text-center">
-                                    <a href="/daftar/mobilelegend" class="btn">Registration</a>
+                                    @if($mobilelegend < 1)
+                                        <a href="/daftar/mobilelegend" class="btn" style="pointer-events: none">Registration</a>
+                                    @else
+                                        <a href="/daftar/mobilelegend" class="btn">Registration</a>
+                                    @endif
                                     <!-- <button type="button" class="btn" data-toggle="modal"
                                         data-target="#buy-ticket-modal" data-ticket-type="standard-access">Registration</button> -->
                                 </div>
@@ -546,10 +551,15 @@
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Gaming From Home</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Group Stage</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>{{$pubgm}} Slot Left </li>
                                 </ul>
                                 <hr>
                                 <div class="text-center">
-                                    <a href="/daftar/pubgm" class="btn">Registration</a>
+                                    @if($pubgm < 1)
+                                        <a href="/daftar/pubgm" class="btn" style="pointer-events: none">Registration</a>
+                                    @else
+                                        <a href="/daftar/pubgm" class="btn">Registration</a>
+                                    @endif
                                     <!-- <button type="button" class="btn" data-toggle="modal"
                                         data-target="#buy-ticket-modal" data-ticket-type="pro-access">Registration</button> -->
                                 </div>
@@ -569,10 +579,15 @@
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Gaming From Home</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Double Elimination</li>
                                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Indonesian</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>{{$valorant}} Slot Left</li>
                                 </ul>
                                 <hr>
                                 <div class="text-center">
-                                    <a href="/daftar/valorant" class="btn">Registration</a>
+                                    @if($valorant < 1)
+                                        <a href="/daftar/valorant" class="btn" style="pointer-events: none">Registration</a>
+                                    @else
+                                        <a href="/daftar/valorant" class="btn">Registration</a>
+                                    @endif
                                     <!-- <button type="button" class="btn" data-toggle="modal"
                                         data-target="#regis-modal-valorant" data-ticket-type="premium-access">Registration</button> -->
                                 </div>
